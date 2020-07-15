@@ -21,7 +21,6 @@ const index = ({navigation}) =>{
         console.log("response",country)
         await axios.get(`https://restcountries.eu/rest/v2/name/${country}`)
         .then((response)=>{
-            console.log("response",response)
             navigation.navigate('Details',
             {
                 response:response,
