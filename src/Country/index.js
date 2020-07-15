@@ -26,6 +26,7 @@ const index = ({navigation}) =>{
                 response:response,
                 navigation
             })
+            setCountry('');
         }).catch((error)=>console.log(error))
     }
     return(
