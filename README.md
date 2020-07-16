@@ -1,3 +1,5 @@
+PLEASE LOOK AT THE SCREEN SHOT INSIDE THE FOLDER NAME - "screen shot".
+
 1. Clone the project
 
 2. "yarn install" in cmd
