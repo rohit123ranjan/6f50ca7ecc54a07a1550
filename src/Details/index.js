@@ -21,7 +21,7 @@ const index = (props) =>{
         }).catch((error)=>console.log(error))
     }
     const renderItem = (item) => {
-        console.log("props item",item?.flag)
+        //console.log("props item",item?.flag)
         return(
             <Card>
                 <Card.Title title={`Capital: ${item?.capital}`} 
